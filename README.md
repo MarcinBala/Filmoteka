@@ -8,7 +8,7 @@ Technologies Used:<br><br>
   <a href="https://en.wikipedia.org/wiki/CSS"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS3" height="50px"></a>
   <a href="https://getbootstrap.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap" height="40px"></a>
   <a href="https://en.wikipedia.org/wiki/JavaScript"><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JavaScript" height="40px"></a>
-  <a href="https://jquery.com/"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/JQuery_logo.svg/524px-JQuery_logo.svg.png?20200327024708" alt="jQuery" height="40px"></a>
+  <a href="https://jquery.com/"><img src="https://jquery.com/wp-content/themes/jquery.com/i/favicon.ico" alt="jQuery" height="40px"></a>
 </p><br>
 The website consists of a home page and the following subpages:<br><br>
 <ul>

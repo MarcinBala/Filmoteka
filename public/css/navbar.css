@@ -1,0 +1,185 @@
+body {
+    background-color: white;
+    position: relative;
+    min-height: 100vh;
+}
+#app {
+    padding-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100% !important;
+    height: 40px;
+    background: linear-gradient(to top, rgba(243,244,237,1) 0%, rgba(243,244,237,1) 95%, rgba(64,64,64,1) 100%);
+    color: #404040;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+}
+a, a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+.text-break {
+    word-break: normal;
+    white-space: pre-line;
+    overflow : hidden;
+    overflow-wrap: break-word;
+}
+.max-lines-2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.max-lines-3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.max-lines-4 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* number of lines to show */
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.max-lines-6 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6; /* number of lines to show */
+    line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+.max-lines-12 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12; /* number of lines to show */
+    line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+.section {
+    font-family: 'Kanit', sans-serif;
+    font-size: calc(22px + 0.4vw);
+    font-weight: bold;
+}
+.section-small {
+    font-family: 'Kanit', sans-serif;
+    font-size: calc(18px + 0.33vw);
+    font-weight: bold;
+}
+.section-btn {
+    cursor: pointer;
+    font-size: calc(12px + 0.25vw);
+    font-weight: bold;
+    color: #404040;
+    border: 1px solid #404040;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 0.25rem 1rem;
+    transition: 0.5s;
+}
+.section-btn:hover {
+    color: white;
+    background-color: #d48446;
+    border: 1px solid #d48446;
+}
+.navbar {
+    background-color: #f3f4ed;
+}
+.search-bar {
+    display: inline-block;
+    background-color: #f8f8f8;
+    padding: 3px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+}
+#search {
+    cursor: pointer;
+    height: 20px;
+    padding: 0 5px 0 5px;
+}
+.search-bar > input{
+    border: none;
+    background-color: inherit;
+    width: 20rem;
+    outline: none;
+}
+.menu {
+    background-color: #d48446;
+}
+.menu-section-container {
+    color: white;
+    padding: 0.5rem 0;
+}
+.menu-section-container:hover {
+    /*background-color: #c06014;*/
+    background-color: #e8914d;
+    padding-bottom: 3px;
+    border-bottom: 3px solid white;
+    transition: border-bottom 0.1s;
+}
+.menu-section-container.hover {
+    /*background-color: #c06014;*/
+    background-color: #e8914d;
+    transition: border-bottom 0.1s;
+}
+.menu-section {
+    text-align: center;
+    font-weight: 600;
+}
+.menu-separator {
+    border-right: 2px solid #c06014;
+}
+.logo {
+    height: 25px;
+    padding: 0 0.5rem;
+}
+.website-name {
+    font-family: 'Lobster', cursive;
+}
+.login-btn {
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 0.3rem 1rem;
+    background-color: #aaa;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.login-btn:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #424642;
+}
+
+.session-success-msg, .session-error-msg {
+    width: fit-content;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    padding: 1rem 3rem;
+    margin: 1rem 0;
+}
+.session-success-msg {
+    border: 2px solid green;
+    background-color: lightgreen;
+}
+.session-error-msg {
+    border: 2px solid red;
+    background-color: indianred;
+}

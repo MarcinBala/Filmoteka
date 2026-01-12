@@ -1,0 +1,305 @@
+.forum-top {
+    background-color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+
+.forum-sort-btn, .forum-category-select {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.forum-sort-btn {
+    padding: 2px 4px;
+    background-color: #bbbbbb;
+}
+.forum-sort-btn:hover {
+    background-color: grey;
+}
+.forum-sort-btn-hover {
+    background-color: grey;
+}
+
+.forum-category-select {
+    height: min-content;
+    padding: 4px 8px;
+    background-color: #e8914d;
+    margin-left: 4px;
+}
+.forum-category-select:hover {
+    background-color: #d48446;
+}
+.forum-category-select>option {
+    color: black;
+    background-color: white;
+}
+
+.forum-top-input {
+    height: 40px;
+    border: 1px solid lightgrey;
+}
+.forum-top-input:focus {
+    outline: none;
+}
+
+.post {
+    border: 1px solid lightgrey;
+    width: 100%;
+}
+
+.post-hover:hover {
+    border: 1px solid #777777;
+}
+
+.post-header {
+    height: 40px;
+    width: 100%;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid lightgrey;
+    position: relative;
+}
+
+.post-header-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.post-avatar-container {
+}
+
+.post-avatar {
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+}
+
+.post-user-container {
+    height: 100%;
+}
+
+.post-user {
+    cursor: pointer;
+    height: 50%;
+    font-size: 16px;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+.post-user:hover {
+    text-decoration: underline;
+}
+
+.post-date {
+    height: 50%;
+    font-size: 11px;
+    padding: 2px 0 0 5px;
+    box-sizing: border-box;
+}
+
+.post-category:hover {
+    text-decoration: underline;
+}
+
+.post-media-container {
+    width: 100%;
+}
+
+.post-comment-link {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+
+.post-vote {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.post-vote:hover, .post-comment-link:hover {
+    background-color: #e8e8e8;
+}
+
+.like-counter {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.post-text {
+    word-break: normal;
+    white-space: pre-line;
+    overflow : hidden;
+    overflow-wrap: break-word;
+}
+
+.post-title{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.post-media {
+    border-top: 1px solid lightgrey;
+}
+
+.post-img {
+    width: 100%;
+    object-fit: contain;
+    max-height: 500px;
+    cursor: pointer;
+}
+
+.post-img-large {
+    width: 100%;
+    object-fit: contain;
+    max-height: 600px;
+    cursor: pointer;
+}
+
+.comments {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.comment-textarea, .comment-edit-textarea {
+    border: 1px solid grey;
+    width: 100%;
+    font-size: 16px;
+}
+
+.comment-textarea:focus, .comment-edit-textarea:focus {
+    outline: 1px solid #e8914d;
+    border: 1px solid #e8914d;
+}
+
+.comment-header {
+}
+
+.comment-text {
+    max-width: 100%;
+    word-break: normal;
+    white-space: pre-line;
+    overflow : hidden;
+    overflow-wrap: break-word;
+    margin: 0.5rem 0 0 0;
+    font-size: 16px;
+}
+
+.comment-avatar {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+
+.comment-avatar-small {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.comment-avatar-border {
+    border: 1px solid lightgrey;
+    border-bottom: none;
+}
+
+.comment-user-name {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.comment-user-name:hover {
+    text-decoration: underline;
+}
+
+.comment-time {
+    font-size: 12px;
+}
+
+.comment-btn, .comment-edit-btn {
+    cursor: pointer;
+    color: white;
+    border: none;
+    background-color: #e8914d;
+    height: fit-content;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 10px;
+    border-radius: 20px;
+}
+
+.comment-btn:disabled, .comment-edit-btn:disabled {
+    cursor: not-allowed;
+}
+
+.comment-cancel-btn, .comment-edit-cancel-btn {
+    cursor: pointer;
+    color: white;
+    border: none;
+    background-color: grey;
+    height: fit-content;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.comment-reply-btn {
+    border: none;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 2px 6px;
+    font-size: 14px;
+}
+
+.comment-reply-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.comment-show-replies-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 2px 6px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.comment-show-replies-btn:hover {
+    text-decoration: underline;
+}
+
+.comment-replies {
+    border-left: 2px solid lightgrey;
+    display: none;
+}
+
+.comment-replies.show {
+    display: block !important;
+}
+
+.comment-reply, .comment-edit {
+    display: none;
+}
+
+.content-toggle {
+    cursor: pointer;
+    width: fit-content;
+}
+.content-toggle.hide {
+    display: none !important;
+}

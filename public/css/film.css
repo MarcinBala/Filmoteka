@@ -1,0 +1,354 @@
+.film-top-image {
+    width: 100%;
+    object-fit: cover;
+    height: 50vw;
+    max-height: 500px;
+}
+
+.film-top-title-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.05) 50%, rgba(255,255,255,0.15) 70%, rgba(255,255,255,0.3) 80%, rgba(255,255,255,1) 100%);
+}
+
+.film-top-title {
+    width: 100%;
+    line-height: calc(18px + 2vw);
+    padding-bottom: 1rem;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    font-size: calc(18px + 2vw);
+    font-weight: bold;
+    color: #101010;
+}
+
+.film-top-legend {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: calc(12px + 0.5vw);
+    font-weight: bold;
+}
+
+.film-score-left-container, .film-score-right-container  {
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.5rem;
+}
+.film-score-left-container {
+    justify-content: center;
+}
+.film-score-right-container {
+    justify-content: center;
+}
+@media (min-width: 576px) {
+    .film-score-left-container {
+        justify-content: end;
+        padding: 1rem 0 1.5rem 0;
+    }
+    .film-score-right-container {
+        justify-content: start;
+        padding: 1rem 0 1.5rem 0;
+    }
+}
+
+.film-svg-container {
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem 2rem;
+}
+
+.film-svg {
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    border-radius: 5px;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+.film-svg:hover {
+    background-color: lightgrey;
+}
+.film-svg.eye-blank {
+    background-image: url("/svg/eye_blank.svg");
+}
+.film-svg.eye {
+    background-image: url("/svg/eye.svg");
+}
+.film-svg.heart-blank {
+    background-image: url("/svg/heart_blank.svg");
+}
+.film-svg.heart {
+    background-image: url("/svg/heart.svg");
+}
+
+.film-svg-readonly {
+    cursor: context-menu;
+    height: 25px;
+    width: 25px;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.film-svg-readonly.heart {
+    background-image: url("/svg/heart.svg");
+}
+.film-svg-readonly.eye {
+    background-image: url("/svg/eye.svg");
+}
+
+.film-score {
+    background-color: lightgrey;
+    border: 2px solid #202020;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
+    width: 40px;
+    padding-top: 3px;
+    font-family: 'Teko', sans-serif;
+    font-size: calc(22px + 0.4vw);
+    font-weight: bold;
+    color: #202020;
+}
+@media (min-width: 576px) {
+    .film-score {
+        height: 42px;
+        width: 45px;
+    }
+}
+@media (min-width: 768px) {
+    .film-score {
+        height: 47px;
+        width: 50px;
+    }
+}
+.film-score.green{
+    background-color: #66cc33; !important
+}
+.film-score.yellow{
+    background-color: #ffcc33; !important
+}
+.film-score.red{
+    background-color: red; !important
+}
+
+.film-info-container {
+    padding: 2rem 4rem 1rem 4rem !important;
+    margin: 0; !important;
+}
+
+.film-description {
+    text-align: justify;
+    padding: 1rem 4rem 2rem 4rem !important;
+    margin: 0; !important;
+}
+
+@media (min-width: 768px) {
+    .film-info-container {
+        border-right: 1px solid #dee2e6 !important;
+        margin: 1rem 0rem; !important;
+        padding: 1rem 4rem !important;
+    }
+    .film-description {
+        margin: 1rem 0rem; !important;
+        padding: 1rem 4rem !important;
+    }
+}
+
+.film-info {
+    font-weight: bold;
+}
+
+.film-video-container {
+    background: #101010;
+    padding: 0.5rem 0;
+}
+
+.film-create-review-container {
+    width: 100%;
+    margin-left: 0.5rem;
+    height: fit-content;
+}
+
+.film-create-review {
+    height: 40px;
+    border: 1px solid lightgrey;
+}
+.film-create-review:focus {
+    outline: none;
+}
+
+.comment-avatar {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+
+.film-vote-container {
+    height: fit-content;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 1rem;
+}
+
+.film-vote-group {
+    display: inline-block;
+    padding: 0.5rem 0;
+}
+
+.film-vote-btn {
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+}
+
+.vote-red {
+    border: 2px solid red;
+}
+.vote-red:hover {
+    background-color: red;
+    color: white;
+}
+.vote-red.hover {
+    background-color: red;
+    color: white;
+}
+
+.vote-yellow {
+    border: 2px solid #ffcc33;
+}
+.vote-yellow:hover {
+    background-color: #ffcc33;
+    color: white;
+}
+.vote-yellow.hover {
+    background-color: #ffcc33;
+    color: white;
+}
+
+.vote-green {
+    border: 2px solid #66cc33;
+}
+.vote-green:hover {
+    background-color: #66cc33;
+    color: white;
+}
+.vote-green.hover {
+    background-color: #66cc33;
+    color: white;
+}
+
+.review-avatar {
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+
+.review-user-name:hover {
+    text-decoration: underline;
+}
+
+.film-chart {
+    width: 75%;
+    max-height: 230px;
+}
+
+.film-poster {
+    object-fit: cover;
+    max-width: 133px;
+    max-height: 200px;
+    aspect-ratio: 2 / 3;
+}
+
+.review-edit-btn, .review-delete-btn {
+    border: 1px solid #202020;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0.1rem 0.5rem;
+    transition: 0.5s;
+}
+.review-edit-btn:hover {
+    background-color: #3490dc;
+    border: 1px solid #3490dc;
+    color: white;
+}
+.review-delete-btn:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+}
+
+.poster {
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    transition: 1s;
+}
+.poster.hover:hover {
+    transform: scale(1.1);
+}
+
+.releases-film-title {
+    font-family: 'Exo', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #101010;
+}
+
+.releases-menu {
+    padding: 1rem;
+    width: fit-content;
+    text-align: center;
+}
+
+.releases-btn {
+    border: 1px solid #202020;
+    border-radius: 5px;
+    color: #202020;
+    font-weight: bold;
+    padding: 0.25rem 1.5rem;
+    margin: 0.25rem 0.25rem;
+    background-color: transparent;
+    transition: 0.4s;
+}
+.releases-btn:hover {
+    color: white;
+    background-color: #d48446;
+    border: 1px solid #d48446;
+}
+.releases-btn.hover {
+    color: white;
+    background-color: #d48446;
+    border: 1px solid #d48446;
+}
+
+.actor-img {
+    max-width: 200px;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+}
+
+.cast-img {
+    max-width: 150px;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+}

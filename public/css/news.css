@@ -1,0 +1,46 @@
+.card-hover:hover {
+    cursor: pointer;
+    border: 1px solid grey;
+}
+
+.card-img-top {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-hover-scale {
+    transition: transform 0.5s;
+}
+.card-hover-scale:hover {
+    transform: scale(1.05);
+}
+
+.h-200p {
+    height: 200px;
+}
+
+.h-300p {
+    height: 300px;
+}
+
+.h-400p {
+    height: 400px;
+}
+
+.card-center {
+    margin: 0 auto;
+    float: none;
+}
+
+.card-text {
+    word-break: normal;
+    white-space: pre-line;
+    overflow : hidden;
+    overflow-wrap: break-word;
+}
+
+.news-vote {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}

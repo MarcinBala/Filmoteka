@@ -2,8 +2,8 @@
 Filmoteka is a movie rating and review platform created as a part of my Engineer's Thesis (equivalent to BEng Thesis).<br><br>
 Technologies Used:<br><br>
 <p>
-  <a href="https://www.php.net/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/711px-PHP-logo.svg.png" alt="PHP" height="50px"></a>
-  <a href="https://laravel.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Logo.min.svg/176px-Logo.min.svg.png?20200603074624" alt="Laravel" height="50px"></a>
+  <a href="https://www.php.net/"><img src="https://www.php.net/favicon-196x196.png?v=2" alt="PHP" height="50px"></a>
+  <a href="https://laravel.com/"><img src="https://laravel.com/img/favicon/favicon.ico" alt="Laravel" height="50px"></a>
   <a href="https://en.wikipedia.org/wiki/HTML"><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5" height="50px"></a>
   <a href="https://en.wikipedia.org/wiki/CSS"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS3" height="50px"></a>
   <a href="https://getbootstrap.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap" height="40px"></a>
